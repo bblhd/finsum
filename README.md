@@ -1,5 +1,5 @@
 # finsum
-Program to sum a series of repeated and/or one-time transactions.
+Program to sum a series of repeated and/or one-time transactions stored in a file.
 Intended for simple budgeting in the modern era.
 
 ## Usage
