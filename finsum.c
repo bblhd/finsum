@@ -74,7 +74,7 @@ int main(int argc, char **argv) {
 		printf("\t%s file [day [month [year]]]\n", argv[0]);
 		printf("Description:\n");
 		printf("\tThis program calculates a sum of transactions which have been stored in a file.\n");
-		printf("\tIt is intended to be used for simple single account budgeting in the modern era.\n");
+		printf("\tIt is intended to be used for rough single account budgeting in the modern era.\n");
 		printf("File format:\n");
 		printf("\tUses a human readable file format, consisting of a series of entries seperated by line breaks.\n");
 		printf("\tEach entry is formatted according to this EBNF desciption:\n\n");
