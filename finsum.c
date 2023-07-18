@@ -86,8 +86,7 @@ int main(int argc, char **argv) {
 		printf("\t\tdate ::= integer month integer\n");
 		printf("\t\tdecimal ::= [0-9]* ( '.' ( [0-9] [0-9]? )? )?\n");
 		printf("\t\tinteger ::= [0-9]*\n");
-		printf("\t\tmonth ::= jan | feb | mar | apr | may | jun | jul | aug | sep | oct | nov | dec\n");
-		printf("\n\tThe EBNF is correct save for a few details regarding restrictions on whitespace\n\twhich are difficult to communicate.\n");
+		printf("\t\tmonth ::= jan | feb | mar | apr | may | jun | jul | aug | sep | oct | nov | dec\n");\
 		printf("Entry Examples:\n");
 		printf("\t-$50.30 every 2 weeks from 9 aug 2020\n");
 		printf("\t+$50000 every year from 1 jan 2014 to 1 jan 2020\n");
